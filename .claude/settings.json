@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "defaultMode": "acceptEdits",
+    "allow": [
+      "Bash(npm run *)",
+      "PowerShell(npm run *)",
+      "Bash(npx -y @phaser-ae/cli *)",
+      "PowerShell(npx -y @phaser-ae/cli *)",
+      "Bash(phaser-ae *)",
+      "PowerShell(phaser-ae *)"
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "baseURL": "",
+  "packs": {
+    "title": [
+      { "kind": "image", "key": "item-helm", "url": "art/item-helm.png" },
+      { "kind": "image", "key": "item-armor", "url": "art/item-armor.png" },
+      { "kind": "image", "key": "iso-floor", "url": "art/iso-floor.jpg" },
+      { "kind": "image", "key": "iso-wall", "url": "art/iso-wall.jpg" },
+      { "kind": "image", "key": "hero-painted", "url": "art/hero-body.png" },
+      { "kind": "image", "key": "ui-slot", "url": "art/ui-slot.jpg" },
+      { "kind": "image", "key": "ui-sheet", "url": "art/ui-sheet.jpg" },
+      { "kind": "image", "key": "portrait-akara", "url": "art/portrait-akara.jpg" }
+    ],
+    "game": []
+  }
+}

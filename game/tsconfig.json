@@ -1,0 +1,28 @@
+{
+  "extends": "../phaser/tsconfig.base.json",
+  "compilerOptions": {
+    "noUncheckedIndexedAccess": false,
+    "exactOptionalPropertyTypes": false,
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "paths": {
+      "@phaser-ae/kernel": [
+        "../phaser/engine/kernel/src/index.ts"
+      ],
+      "@phaser-ae/kernel/*": [
+        "../phaser/engine/kernel/src/*.ts"
+      ]
+    },
+    "typeRoots": [
+      "../phaser/node_modules/@types",
+      "../phaser/node_modules"
+    ]
+  },
+  "include": [
+    "**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}

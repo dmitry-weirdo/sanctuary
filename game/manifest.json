@@ -1,0 +1,83 @@
+{
+  "name": "sanctuary",
+  "screen": {
+    "width": 1280,
+    "height": 720,
+    "fit": "letterbox",
+    "background": "#0a0608",
+    "pixelArt": false
+  },
+  "seed": 4285,
+  "backgroundPolicy": "pause",
+  "assets": [
+    "art/item-helm.png",
+    "art/item-armor.png",
+    "art/iso-floor.jpg",
+    "art/iso-wall.jpg",
+    "art/hero-body.png",
+    "art/ui-slot.jpg",
+    "art/ui-sheet.jpg",
+    "art/portrait-akara.jpg"
+  ],
+  "packs": [
+    {
+      "id": "core-2d"
+    },
+    {
+      "id": "typography"
+    },
+    {
+      "id": "ui"
+    },
+    {
+      "id": "ui-skins"
+    },
+    {
+      "id": "ui-skin-metal",
+      "options": {
+        "color": "grey"
+      }
+    },
+    {
+      "id": "save",
+      "options": {
+        "namespace": "sanctuary"
+      }
+    },
+    {
+      "id": "world-topdown"
+    },
+    {
+      "id": "arena-layout"
+    },
+    {
+      "id": "nav"
+    },
+    {
+      "id": "bars"
+    },
+    {
+      "id": "lighting-2d",
+      "options": {
+        "ambient": "#1a1018",
+        "modulate": 0.35,
+        "floor": "floor"
+      }
+    },
+    {
+      "id": "nine-slice"
+    },
+    {
+      "id": "dialogue"
+    },
+    {
+      "id": "art-2d"
+    },
+    {
+      "id": "post"
+    },
+    {
+      "id": "post-looks"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "sanctuary",
+  "private": true,
+  "type": "module",
+  "description": "Sanctuary: a Phaser AE game",
+  "scripts": {
+    "build": "node phaser/bin/bake.mjs build game dist",
+    "smoke": "node phaser/bin/bake.mjs smoke game",
+    "play": "node phaser/cli/bin/phaser-ae.mjs play",
+    "look": "node phaser/bin/bake.mjs look game",
+    "check": "node phaser/bin/bake.mjs check game",
+    "bake": "node phaser/bin/bake.mjs game",
+    "typecheck": "node phaser/node_modules/typescript/bin/tsc -p game --noEmit",
+    "packs": "node phaser/cli/bin/phaser-ae.mjs packs",
+    "serve": "node phaser/cli/bin/phaser-ae.mjs serve",
+    "changes": "node phaser/cli/bin/phaser-ae.mjs changes",
+    "pull": "node phaser/cli/bin/phaser-ae.mjs pull",
+    "crew": "node phaser/cli/bin/phaser-ae.mjs crew",
+    "tool": "node phaser/cli/bin/phaser-ae.mjs tool",
+    "upload": "node phaser/cli/bin/phaser-ae.mjs upload",
+    "publish": "node phaser/cli/bin/phaser-ae.mjs publish",
+    "playtest": "node phaser/cli/bin/phaser-ae.mjs playtest",
+    "status": "node phaser/cli/bin/phaser-ae.mjs status",
+    "tools": "node phaser/cli/bin/phaser-ae.mjs tools",
+    "credits": "node phaser/cli/bin/phaser-ae.mjs credits",
+    "gdd": "node phaser/cli/bin/phaser-ae.mjs gdd",
+    "idea": "node phaser/cli/bin/phaser-ae.mjs idea"
+  }
+}
